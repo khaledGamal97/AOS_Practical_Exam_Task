@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="767.0" prefWidth="1022.0" style="-fx-background-color: #0a0d86;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FIFO_algorithm.Controller">
+    <children>
+        <HBox alignment="CENTER_LEFT" layoutX="50.0" layoutY="50.0" prefHeight="64.0" prefWidth="982.0" spacing="10.0" style="-fx-background-color: #fff633;">
+            <children>
+                <Label text="Task1_name:">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font></Label>
+                <TextField fx:id="name1" prefHeight="51.0" prefWidth="78.0">
+               <HBox.margin>
+                  <Insets right="40.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font></TextField>
+            <Label text="ri:" textFill="#bc1414">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+                <TextField fx:id="ri1" prefHeight="54.0" prefWidth="81.0">
+               <HBox.margin>
+                  <Insets right="40.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="24.0" />
+               </font></TextField>
+            <Label text="pi:" textFill="#490db9">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+                <TextField fx:id="pi1" prefHeight="52.0" prefWidth="77.0">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font></TextField>
+                <Label text="ei:" textFill="#b20f0f">
+                    <padding>
+                        <Insets left="50.0" right="4.0" />
+                    </padding>
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font></Label>
+                <TextField fx:id="ei1" prefHeight="49.0" prefWidth="78.0">
+               <HBox.margin>
+                  <Insets right="40.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="24.0" />
+               </font></TextField>
+            <Label text="di:" textFill="#490db9">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+                <TextField fx:id="di1" prefHeight="47.0" prefWidth="72.0" style="-fx-border-color: #20860a;">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font></TextField>
+
+            </children>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin></HBox>
+
+        <HBox alignment="CENTER_LEFT" layoutX="50.0" layoutY="50.0" prefHeight="64.0" prefWidth="982.0" spacing="10.0" style="-fx-background-color: #fff633;">
+            <children>
+            <Label text="Task1_name:">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+                <TextField fx:id="name2" prefHeight="54.0" prefWidth="79.0">
+               <HBox.margin>
+                  <Insets right="40.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font></TextField>
+            <Label text="ri:" textFill="#cd1313">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+                <TextField fx:id="ri2" prefHeight="54.0" prefWidth="82.0">
+               <HBox.margin>
+                  <Insets right="40.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font></TextField>
+            <Label text="pi:" textFill="#300aa1">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+                <TextField fx:id="pi2" prefHeight="52.0" prefWidth="79.0">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font></TextField>
+            <Label text="ei:" textFill="#b20f0f">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <padding>
+                  <Insets left="50.0" right="4.0" />
+               </padding>
+            </Label>
+                <TextField fx:id="ei2" prefHeight="51.0" prefWidth="75.0">
+               <HBox.margin>
+                  <Insets right="40.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font></TextField>
+            <Label text="di:" textFill="#490db9">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+                <TextField fx:id="di2" prefHeight="53.0" prefWidth="73.0">
+               <font>
+                  <Font size="24.0" />
+               </font></TextField>
+
+            </children>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin></HBox>
+
+
+        <HBox alignment="CENTER_LEFT" layoutX="50.0" layoutY="50.0" prefHeight="64.0" prefWidth="982.0" spacing="10.0" style="-fx-background-color: #fff633;">
+            <children>
+            <Label text="Task1_name:">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+                <TextField fx:id="name3" prefHeight="53.0" prefWidth="77.0">
+               <HBox.margin>
+                  <Insets right="40.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font></TextField>
+            <Label text="ri:" textFill="#c31212">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+                <TextField fx:id="ri3" prefHeight="52.0" prefWidth="82.0">
+               <HBox.margin>
+                  <Insets right="40.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font></TextField>
+            <Label text="pi:" textFill="#3910a1">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+                <TextField fx:id="pi3" prefHeight="52.0" prefWidth="81.0">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font></TextField>
+            <Label text="ei:" textFill="#b20f0f">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <padding>
+                  <Insets left="50.0" right="4.0" />
+               </padding>
+            </Label>
+                <TextField fx:id="ei3" prefHeight="51.0" prefWidth="74.0">
+               <HBox.margin>
+                  <Insets right="40.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font></TextField>
+            <Label text="di:" textFill="#490db9">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Label>
+                <TextField fx:id="di3" prefHeight="54.0" prefWidth="75.0">
+               <font>
+                  <Font size="24.0" />
+               </font></TextField>
+
+            </children>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin></HBox>
+      <VBox prefHeight="123.0" prefWidth="830.0">
+         <children>
+            <HBox prefHeight="37.0" prefWidth="830.0" style="-fx-background-color: #33fff3;">
+               <children>
+                  <Label text="Please click the draw buttun to draw the timing diagram:" textFill="#27099e">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #fad7a0;">
+               <children>
+                  <Button fx:id="drawButton" alignment="CENTER" defaultButton="true" mnemonicParsing="false" style="-fx-background-color: #fff633;" text="Draw" textFill="#d32525">
+                     <font>
+                        <Font size="31.0" />
+                     </font>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+      </VBox>
+
+              <LineChart fx:id="lineChart" layoutX="94.0" layoutY="218.0" prefHeight="325.0" prefWidth="830.0" style="-fx-background-color: #ffff;" title="Timing Diagram">
+            <xAxis>
+                <NumberAxis animated="false" forceZeroInRange="false" minorTickCount="0" minorTickLength="0.0" minorTickVisible="false" side="BOTTOM" tickLabelGap="0.0" tickLength="2.0" tickMarkVisible="false" tickUnit="1.0" upperBound="80.0" fx:id="xaxis" />
+            </xAxis>
+            <yAxis>
+                <CategoryAxis fx:id="yaxis" animated="false" prefHeight="248.0" prefWidth="64.0" side="LEFT">
+               <tickLabelFont>
+                  <Font name="System Bold" size="14.0" />
+               </tickLabelFont></CategoryAxis>
+            </yAxis>
+         <VBox.margin>
+            <Insets top="40.0" />
+         </VBox.margin>
+        </LineChart>
+    </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
